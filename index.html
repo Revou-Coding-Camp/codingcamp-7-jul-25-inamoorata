@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- header  -->
+ <header>
+    <h1>To Do List</h1>
+</header>
+
+<!-- input  -->
+<div class="container">
+    <form id="todo-form">
+        <input type="text" placeholder="Add something to do" class="input-todo" required>
+        <input type="date">
+
+        <button class="add-button" type="submit">Add</button> <br>
+    </form>
+
+<!-- filter dan delete all-->
+ <div>
+    <select class="filter">
+    <option disabled selected>Filter</option>
+    <option value="all">All</option>
+    <option value="completed">Completed</option>
+    <option value="pending">Pending</option>
+    </select>
+
+    <button class="delete-all">Delete All</button>
+</div>
+
+<!-- Tasks detail  -->
+ <table>
+    <thead>
+        <tr>
+            <th>Tasks</th>
+            <th>Due Date</th>
+            <th>Status</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="4">No task found!</td>
+        </tr>
+    </tbody>
+ </table>
+</div>
+
+<!-- footer --> 
+  <footer> 
+    <p>&copy; 2025 Vira All rights reserved.</p> 
+  </footer> 
+
+<script src="./script.js"></script>
+
+</body>
+</html>

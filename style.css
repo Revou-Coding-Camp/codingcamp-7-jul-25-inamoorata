@@ -1,0 +1,110 @@
+/* Body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    background-color: mediumorchid;
+    padding: 30px;
+    margin: 0;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-top: 80px;
+}
+
+/* Container */
+.container {
+    background-color: darkorchid;
+    border-radius: 20px;
+    padding: 30px 50px;
+    padding-left: 30px;
+    width: 40%;
+    margin: 20px auto;
+}
+
+/* Form Inputs */
+input[type="text"], input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Add Button */
+.add-button {
+    width: 80%;
+    padding: 10px;
+    margin-left: 12%;
+    margin-bottom: 10px;
+    background-color: #5a189a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+    background-color: #3c096c;
+}
+
+/* Filter & Delete */
+.controls {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.filter, .delete-all {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.filter {
+    background-color: #c77dff;
+    color: #000;
+}
+
+.delete-all {
+    background-color: #ff4d6d;
+    color: white;
+}
+
+.delete-all:hover {
+    background-color: #c9184a;
+}
+
+/* Table */
+table {
+    width: 104%;
+    margin-top: 30px;
+    border-collapse: collapse;
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+td[colspan] {
+    text-align: center;
+    color: gray;
+}
+
+/* footer  */
+footer{
+    text-align: center;
+}
